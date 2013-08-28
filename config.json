@@ -1,0 +1,11 @@
+{
+    "twitterID": "YOUR TWEETS",
+    "fadeTime": 800,
+    "tagCloudTime": 5000,
+    "tweetTime": 5000,
+    "preprocessTweets" : 0,
+    "maxFont": 60,
+    "minFont": 30,
+    "fetchTime": 30000,
+    "tweets": 200
+}

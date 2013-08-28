@@ -1,0 +1,88 @@
+
+body {
+  height:100%;
+  width: 100%;
+  position: absolute;
+  margin: 0px;
+  overflow: hidden;
+  font-family: 'Lato';
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url('Lato-Regular.woff') format('woff');
+}
+
+#tweet {
+  position: absolute;
+  width: 40%;
+  padding-left: 30%;
+  height: 80%;
+  text-align: left;
+  font-size: 50px;
+  z-index: 1000;
+  top: 0%;
+  padding-top: 10%;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+#tagCloud span {
+  margin-left: 20px;
+}
+
+#tweetTime {
+  font-size: 35px;
+  color: rgba(64, 64, 64, 0.8);
+  top: -25px;
+  position: relative;
+  text-shadow: 0 0 0px rgba(0, 0, 0, 0) !important;
+  text-decoration: bold;
+}
+
+#tweetDetails div{
+  display: inline-block;
+  word-wrap: normal;
+}
+
+#tweetDetails {
+  position: relative;
+}
+
+img {
+  width: 72px;
+  height: 72px;
+  border-radius: 4px;
+}
+
+span {
+  display: inline-block; 
+  vertical-align: middle;
+  word-wrap: normal;
+  top: 50%;
+  white-space: nowrap;
+}
+
+#tagCloud {
+  text-align: center; 
+  vertical-align: middle;
+  height: 80%;
+  width: 80%;
+  left: 10%;
+  top: 30%;
+  position: absolute;
+  color: white;
+  z-index: 1;
+  font-weight: bold;
+}
+
+#tagCloud {
+  transition: filter 0.5s;
+  -webkit-transition: webkit-filter 0.5s;
+}
+.blurred span {
+  filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
