@@ -31,4 +31,5 @@ VisibleTweetsJS
   - Set tweet fontSize depending on screen size
   - Encapsulate view 
   - Parameterize config parameters to allow embedding
-  - Fix TimeZone problem 
+  - Fix TimeZone problem
+  - Separate word logic into its own Model
