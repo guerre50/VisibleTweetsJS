@@ -1,4 +1,4 @@
-VisualTweetsJS
+VisibleTweetsJS
 ==============
   
   JS implementation of the Flash Twitter visualization
